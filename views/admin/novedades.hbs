@@ -1,0 +1,66 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Varela+Round|Open+Sans">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+
+<div class="cont">
+    <div class="roow">
+        <p class="textknov">Hola {{usuario}}!!! 
+        <div class="bot1">
+            <a class="linknov" href="/admin/login/logout">Cerrar sesión </a>
+        </div>
+        <i class="fas"></i> </p>
+    </div>
+
+    <div class="cajapagina"> 
+        <a class="linknov" href="http://localhost:3001/">Ingresar a la página</a>
+        <p class="p">El formato YouTube permite aumentar la velocidad de reproducción del video</p>
+        <iframe class="captura" width="560" height="315" src="https://www.youtube.com/embed/wm-v9HS3LpE" allowfullscreen></iframe>
+        </div>
+
+
+    <div class="Boostrap">
+            <div class="container">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-8"><h2>Listado de novedades</h2></div>
+                    <div class="col-sm-4">
+                        <a class="btn btn-success" href="/admin/novedades/agregar"><i class="fa fa-plus" aria-hidden="true"></i>  Agregar</a>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Título</th>
+                        <th>Subtítulo</th>
+                        <th>Cuerpo</th>
+                        <th>imagen</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each novedades}}
+                    <tr>
+                        <td>{{id}}</td>
+                        <td>{{titulo}}</td>
+                        <td>{{subtitulo}}</td>
+                        <td>{{cuerpo}}</td>
+                        <td>{{{imagen}}}</td>
+                        <td>
+							<a class="add" title="Add" data-toggle="tooltip"><i class="material-icons">&#xE03B;</i></a>
+                            <a href="/admin/novedades/modificar/{{id}}" class="edit" title="Edit" data-toggle="tooltip"><i class="material-icons">&#xE254;</i></a>
+                            <a href="/admin/novedades/eliminar/{{id}}" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE872;</i></a>
+                        </td>
+                    </tr>   
+                    {{/each}}   
+                </tbody>
+            </table>
+        </div>
+    </div>   
+    </div>
+    
+</div>

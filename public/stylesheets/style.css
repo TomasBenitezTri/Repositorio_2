@@ -1,0 +1,191 @@
+.p{
+  margin-left: 10px;
+}
+.captura{
+  border-radius: 10px;
+  margin: 10px;
+  margin-top: -5px;
+}
+
+.roow{
+  margin: 5px 0px 5px 0px;
+  border-radius: 10px;
+  border: solid 1px;
+}
+.cajapagina{
+  border-radius: 10px;
+  padding: 15px 0px 0px 0px;
+  border: solid 0.5px;
+}
+.textknov{
+  margin: 15px 5px 15px 15px;
+  text-decoration: none;
+  font-size: 20px;
+}
+.bot1{
+  margin: 0px 0px 15px 0px;
+}
+.linknov{
+  border-radius: 5px;
+  padding: 5px;
+  background: #00ff62;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: blue;
+
+}
+.btn-primary{
+  background: gray;
+  color:#00ff62;
+  border-radius: 10px;
+  font-size: 25px;
+  text-shadow: -1px 1px 1px blue;
+}
+.formulariologin{
+  display: flex;
+}
+.form-control{
+  margin: 5px;
+  border: solid blue 1px;
+}
+.norma_1{
+  font-size: 30px;
+}
+.norma_2{
+  background: yellow;
+}
+.norma_3{
+  text-decoration: none;
+}
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.login {
+  text-align: center;
+}
+.header{
+  font-family: arial;
+  background: grey;
+  text-align: center;
+  font-size: 70px;
+  color: #00ff62 ;
+  text-shadow: -2px 2px 2px blue;
+  -webkit-text-stroke: 1px black;
+  background-size: 30%;
+  font-weight: 900;
+  border: 1px solid blue;
+  border-radius: 10px;
+}
+.footer {
+  border: 1px solid blue;
+  font-size: 20px;
+  text-align: center;
+  color: #00ff62;
+  background: grey;
+}
+a {
+  padding: 3px;
+  border-radius: 5px;
+  background: blue;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(94, 245, 94);
+}
+p{
+  
+  margin: 5px;
+}
+
+.Boostrap{
+  border-radius: 10px;
+  margin: 5px 0px 0px 0px;
+  border: solid 0.5px;
+}
+
+body {
+  color: #404E67;
+  background: #F5F7FA;
+font-family: 'Open Sans', sans-serif;
+}
+.table-wrapper {
+width: 100%;
+margin: 30px auto;
+  background: #fff;
+  padding: 20px;	
+  box-shadow: 0 1px 1px rgba(0,0,0,.05);
+}
+.table-title {
+  padding-bottom: 10px;
+  margin: 0 0 10px;
+}
+.table-title h2 {
+  margin: 6px 0 0;
+  font-size: 25px;
+}
+.table-title .add-new {
+  float: right;
+height: 30px;
+font-weight: bold;
+font-size: 15px;
+text-shadow: none;
+min-width: 100px;
+border-radius: 50px;
+line-height: 13px;
+}
+.table-title .add-new i {
+margin-right: 40px;
+}
+table.table {
+  table-layout: fixed;
+}
+table.table tr th, table.table tr td {
+  border-color: #e9e9e9;
+}
+table.table th i {
+  font-size: 16px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+table.table th:last-child {
+  width: 50px;
+}
+table.table th:first-child{
+  width: 50px;
+}
+table.table td a {
+cursor: pointer;
+  display: inline-block;
+  margin: 0 5px;
+}    
+table.table td a.add {
+  color: #27C46B;
+}
+table.table td a.edit {
+  color: #FFC107;
+}
+table.table td a.delete {
+  color: #E34724;
+}
+table.table td i {
+  font-size: 19px;
+}
+table.table td a.add i {
+  font-size: 24px;
+margin-right: -1px;
+  position: relative;
+  top: 3px;
+}    
+table.table .form-control {
+  height: 32px;
+  line-height: 32px;
+  box-shadow: none;
+  border-radius: 2px;
+}
+table.table .form-control.error {
+border-color: #f50000;
+}
+table.table td .add {
+display: none;
+}

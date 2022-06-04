@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Admin</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <div class='header'>
+      BibliHouse
+    </div>
+    {{{body}}}
+<h1>{{title}}</h1>
+{{#if conocido}}
+<p class="norma_1">Gracias por iniciar sesión {{nombre}} 
+    <a href="/salir" class="norma_3"> 
+        Cerrar sesión 
+    </a></p>
+{{/if}}
+
+{{#unless conocido}}
+<p class="norma_1">Escriba su nombre para iniciar sesión</p>
+<form action="/ingresar" method="post">
+    <input type="text" name="nombre"><button class="norma_2">Ingresar</button>
+</form>
+{{/unless}}
+    <h1 class="footer"> Design by: Tomas Benitez - 2022 </h1>
+  </body>
+</html>
