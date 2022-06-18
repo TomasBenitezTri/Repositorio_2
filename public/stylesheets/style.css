@@ -109,7 +109,6 @@ body {
 a {
   padding: 3px;
   border-radius: 5px;
-  background: blue;
   font-size: 30px;
   text-decoration: none;
   color: rgb(94, 245, 94);
@@ -119,11 +118,12 @@ a {
   font-size: 20px;
   background: none;
   color: aqua;
-  padding: 5px;
 }
 
 .a_de_footer:hover{
   background: #404E67;
+  color:aqua;
+  text-decoration: none;
 } 
 
 p{
