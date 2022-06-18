@@ -114,6 +114,18 @@ a {
   text-decoration: none;
   color: rgb(94, 245, 94);
 }
+
+.a_de_footer{
+  font-size: 20px;
+  background: none;
+  color: aqua;
+  padding: 5px;
+}
+
+.a_de_footer:hover{
+  background: #404E67;
+} 
+
 p{
   
   margin: 5px;
@@ -210,8 +222,27 @@ border-color: #f50000;
 table.table td .add {
 display: none;
 }
-@media only screen and (max-width: 500px) {
+@media (max-width:500px) {
   #inputUser.usuario_login{
-    padding: 60px;
+    width: 90%;
+  }
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 5px;
+  font-size: 20px;
+  border: solid blue 1px;
+  border-radius: 10px;
+}
+@media only screen and (max-width: 379px) {
+  .footer{
+      font-size: 0.7em;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .footer{
+      margin-left: 7px;
+      width: 300px;
   }
 }
